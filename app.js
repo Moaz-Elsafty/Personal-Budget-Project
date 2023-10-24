@@ -19,7 +19,6 @@ app.use(bodyParser.json());
 const apiRouter = require('./server/api');
 app.use('/api', apiRouter);
 
-
 app.use(errorHandler);
 
 module.exports = app;
